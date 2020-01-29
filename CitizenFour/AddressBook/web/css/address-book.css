@@ -1,0 +1,37 @@
+.action.primary.delete-address-book {
+    background-image: none;
+    background: red;
+    border: 1px solid red;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding: 7px 15px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.action.primary.edit-address-book {
+    background-image: none;
+    background: orange;
+    border: 1px solid orange;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding: 7px 15px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.address-book-table {
+    margin-top: 20px;
+}
+
+.address-book-table > thead > tr {
+    background: #dddddd;
+}
